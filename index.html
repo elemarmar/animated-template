@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <title>Animated Template</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+   <!-- AOIS CSS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Tailwind Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
 </head>
@@ -21,7 +21,7 @@
           <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
                 <!-- Nav Title -->
-                Creative Tim
+                Fox dæmon
               </a>
               <!-- Hamburger Menu (Mobile) -->
               <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
@@ -70,7 +70,7 @@
       <!-- Background Image -->
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="">
+        style="background: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80) center">
         <!-- Overlay -->
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
@@ -198,7 +198,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
                 class="w-full align-middle rounded-t-lg"
               />
               <blockquote class="relative p-8 mb-4">
@@ -260,7 +260,7 @@
             <img
               alt="..."
               class="max-w-full rounded-lg shadow-lg"
-              src=""
+              src="https://images.unsplash.com/photo-1561427059-08cc64959e07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
             />
           </div>
           <!-- Text Box Container-->
@@ -351,7 +351,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""               
+                src="https://randomuser.me/api/portraits/men/21.jpg"               
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -384,7 +384,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/90.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -413,7 +413,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/71.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -446,7 +446,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/48.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -739,6 +739,12 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
+
+<!-- AOS.js  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <!-- Navigation Script -->
 <script>
   function toggleNavbar(collapseID) {
