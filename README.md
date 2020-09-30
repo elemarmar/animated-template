@@ -1,6 +1,6 @@
 # Animated template
 
-%PIC%
+![cover2](cover2.gif)
 
 %Description%
 
